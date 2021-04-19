@@ -1,0 +1,47 @@
+{
+  "name": "open-leaderboard-frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "prepare": "husky install"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular-builders/jest": "^11.1.1",
+    "@angular/animations": "~11.2.10",
+    "@angular/common": "~11.2.10",
+    "@angular/compiler": "~11.2.10",
+    "@angular/core": "~11.2.10",
+    "@angular/forms": "~11.2.10",
+    "@angular/platform-browser": "~11.2.10",
+    "@angular/platform-browser-dynamic": "~11.2.10",
+    "@angular/router": "~11.2.10",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.11.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1102.9",
+    "@angular/cli": "~11.2.9",
+    "@angular/compiler-cli": "~11.2.10",
+    "@types/jasmine": "~3.6.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "husky": "^6.0.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "jest": "^26.6.3",
+    "jest-preset-angular": "^8.4.0",
+    "karma-coverage": "~2.0.3",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.1.5"
+  }
+}

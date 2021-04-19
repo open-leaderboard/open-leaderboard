@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@openlb/features": ["src/app/features/index.ts"],
+      "@openlb/models": ["src/app/models/index.ts"],
+      "@openlb/pages": ["src/app/pages/index.ts"],
+      "@openlb/services": ["src/app/services/index.ts"],
+      "@openlb/utilities": ["src/app/utilities/index.ts"]
+    },
+    "types": ["jest"]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false
+  }
+}
